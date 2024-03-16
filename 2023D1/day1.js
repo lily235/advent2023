@@ -1,7 +1,7 @@
 /*
 Day 1 puzzle
 */
-function part1(input) {
+function puzzle_part1(input) {
   var totalVales = 0;
 
   input.forEach((line, index, array) => {
@@ -24,7 +24,7 @@ function part1(input) {
   return totalVales;
 }
 
-function part2(input) {
+function puzzle_part1(input) {
   var totalVales = 0;
 
   input.forEach((line, index, array) => {
@@ -71,5 +71,5 @@ function readInputAsLines(filename) {
   return [];
 }
 
-console.log(part1(readInputAsLines("input.txt")));
-console.log(part2(readInputAsLines("input.txt")));
+console.log(puzzle_part1(readInputAsLines("input.txt")));
+console.log(puzzle_part2(readInputAsLines("input.txt")));
