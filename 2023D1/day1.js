@@ -1,3 +1,6 @@
+/*
+Day 1 puzzle
+*/
 function part1(input) {
   var totalVales = 0;
 
